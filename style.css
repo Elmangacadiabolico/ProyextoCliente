@@ -1,5 +1,6 @@
 .fondo{
-background-color: whitesmoke;
+  background: rgb(3,28,43);
+  background: linear-gradient(75deg, rgba(3,28,43,1) 33%, rgba(7,75,113,1) 67%, rgba(0,115,255,1) 100%);
 }
 
 .img-thumbnail{
@@ -19,7 +20,9 @@ border: 4px solid #9320ff; / Borde adicional de color morado claro */
     width: 300px; /* Ajusta el ancho según tus necesidades */
     padding: 20px;
     box-sizing: border-box;
-
+    box-shadow: 0 0 20px rgb(214, 132, 0); /* Borde neon de color morado claro /
+    border: 4px solid orange; / Borde adicional de color morado claro */
+    border: black 2px solid;
 }
 
 .btn-circular {
@@ -84,7 +87,11 @@ height: 300px;
   height: 450px; /* Altura del carrusel para ocupar toda la altura de la pantalla */
   background-color: #f0f0f0; /* Cambia el color de fondo según tu preferencia */
   /* Otros estilos de tu elección */
-  position: absolute;
+  position: relative;
   top: -550px;
   left: 550px;
+}
+
+.inf0{
+  color: azure;
 }
