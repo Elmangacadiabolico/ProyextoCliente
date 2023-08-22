@@ -1,5 +1,6 @@
 .fondo{
-background-color: whitesmoke;
+  background: rgb(3,28,43);
+  background: linear-gradient(75deg, rgba(3,28,43,1) 33%, rgba(7,75,113,1) 67%, rgba(0,115,255,1) 100%);
 }
 
 .img-thumbnail{
@@ -19,9 +20,11 @@ border: 4px solid #9320ff; / Borde adicional de color morado claro */
     width: 300px; /* Ajusta el ancho según tus necesidades */
     padding: 20px;
     box-sizing: border-box;
-
+    box-shadow: 0 0 20px rgb(214, 132, 0); /* Borde neon de color morado claro /
+    border: 4px solid orange; / Borde adicional de color morado claro */
+    border: black 2px solid;
 }
-
+/* position: fixed; */
 .btn-circular {
   display: inline-block;
   width: 40px;
@@ -34,11 +37,15 @@ border: 4px solid #9320ff; / Borde adicional de color morado claro */
   line-height: 1;
   text-align: center;
   cursor: pointer;
+  box-shadow: 0 0 20px  #007bff; /* Borde neon de color morado claro 
+  border: 4px solid #9320ff; / Borde adicional de color morado claro */
 }
 
 /* Estilo cuando se pasa el mouse sobre el botón */
 .btn-circular:hover {
-  background-color: #0056b3;
+  background-color: #00ff73;
+  box-shadow: 0 0 20px #00ff73; /* Borde neon de color morado claro 
+border: 4px solid #9320ff; / Borde adicional de color morado claro */
 }
 
 
@@ -84,7 +91,108 @@ height: 300px;
   height: 450px; /* Altura del carrusel para ocupar toda la altura de la pantalla */
   background-color: #f0f0f0; /* Cambia el color de fondo según tu preferencia */
   /* Otros estilos de tu elección */
-  position: absolute;
+  position: relative;
   top: -550px;
   left: 550px;
+}
+
+.inf0{
+  color: azure;
+}
+.btn btn-info{
+  box-shadow: 0 0 20px #8d13ff; /* Borde neon de color morado claro 
+  border: 4px solid #9320ff; / Borde adicional de color morado claro */
+}
+
+.carlitos {
+  background-color: #333;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid darkmagenta;
+}
+
+.carlitos {
+  background-color: #333;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid darkmagenta;
+  box-shadow: 0 0 20px #8d13ff; /* Borde neon de color morado claro 
+border: 4px solid #9320ff; / Borde adicional de color morado claro */
+}
+
+.IMPUTSCAR {
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px #8d13ff; /* Borde neon de color morado claro 
+border: 4px solid #9320ff; / Borde adicional de color morado claro */
+}
+
+.conteiner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Tres columnas con igual ancho */
+  gap: 10px; /* Espacio entre elementos */
+  width: 500px;
+}
+
+.IMPUTSCAR:hover{
+
+background-color: #00ff73;
+color: aliceblue;
+box-shadow: 0 0 20px #13ff89; /* Borde neon de color morado claro 
+border: 4px solid #9320ff; / Borde adicional de color morado claro */
+}
+
+.nav-link:hover{
+  color:#9320ff;
+  box-shadow: 0 0 20px #ff1414; /* Borde neon de color morado claro 
+  border: 4px solid #9320ff; / Borde adicional de color morado claro */
+
+}
+
+.dropdown-item:hover{
+  color: #00ff73;
+  
+}
+
+.saved-data {
+  background-color: #007bff #009bff #008bff;
+  color: orange;
+  margin-top: 10px;
+  font-size: 14px;
+  border: #00ff73 solid 2px
+}
+
+.PlaySavedDate1{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 20px  orangered; /* Borde neon de color morado claro 
+  border: 4px solid #9320ff; / Borde adicional de color morado claro */
+  position: relative;
+  top: -130px;
+  left: 520px;
 }
